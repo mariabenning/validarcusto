@@ -1,0 +1,75 @@
+*{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(222, 222, 230);
+}
+
+
+.main{
+margin-top: 5%;
+margin-left: 25%;
+margin-right: 25%;
+align-content: center;
+align-self: center;
+padding: 2%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: auto;
+height: 300px;
+background: rgb(37, 71, 122);
+border: 2px solid rgb(3, 4, 59);
+color: rgb(225, 225, 233)
+
+}
+
+
+
+
+.titulo{
+color: rgb(5, 5, 80);
+font-size: 3rem;
+
+}
+
+
+.inputs{
+
+  border: none;
+     background-color: rgb(172, 189, 179);
+     width: 50px;
+     height: 30px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      outline: none;
+
+
+
+}
+
+#resultado{
+    background-color: rgb(8, 85, 43);
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    color: rgb(225, 225, 233);
+     border: none;
+     box-shadow: 2px 2px 5px rgb(19, 18, 18);
+    
+}
+
+
+#resultado:hover{
+background-color: rgb(11, 247, 113);
+  color: rgb(6, 43, 27);
+}
+
